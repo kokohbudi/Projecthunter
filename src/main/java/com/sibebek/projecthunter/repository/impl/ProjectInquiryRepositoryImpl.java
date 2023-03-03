@@ -1,7 +1,7 @@
-package com.sibebek.projecthunter.projecthunter.repository.impl;
+package com.sibebek.projecthunter.repository.impl;
 
-import com.sibebek.projecthunter.projecthunter.dto.ProjectDetail;
-import com.sibebek.projecthunter.projecthunter.repository.ProjectInquiryRepository;
+import com.sibebek.projecthunter.dto.ProjectDetail;
+import com.sibebek.projecthunter.repository.ProjectInquiryRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;

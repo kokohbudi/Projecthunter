@@ -1,6 +1,6 @@
-package com.sibebek.projecthunter.projecthunter.service;
+package com.sibebek.projecthunter.service;
 
-import com.sibebek.projecthunter.projecthunter.dto.ProjectDetail;
+import com.sibebek.projecthunter.dto.ProjectDetail;
 
 import java.io.IOException;
 import java.util.List;

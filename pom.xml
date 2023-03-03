@@ -8,9 +8,9 @@
         <version>3.0.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.sibebek.projecthunter</groupId>
+    <groupId>com.sibebek</groupId>
     <artifactId>Projecthunter</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-RELEASE</version>
     <name>Projecthunter</name>
     <description>projecthunter</description>
     <properties>

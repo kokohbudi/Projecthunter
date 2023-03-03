@@ -1,4 +1,4 @@
-package com.sibebek.projecthunter.projecthunter;
+package com.sibebek.projecthunter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

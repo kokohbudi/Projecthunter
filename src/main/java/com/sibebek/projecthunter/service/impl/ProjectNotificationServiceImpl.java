@@ -1,9 +1,9 @@
-package com.sibebek.projecthunter.projecthunter.service.impl;
+package com.sibebek.projecthunter.service.impl;
 
-import com.sibebek.projecthunter.projecthunter.dto.ProjectDetail;
-import com.sibebek.projecthunter.projecthunter.repository.ProjectInquiryRepository;
-import com.sibebek.projecthunter.projecthunter.service.NotificationService;
-import com.sibebek.projecthunter.projecthunter.service.ProjectNotificationService;
+import com.sibebek.projecthunter.dto.ProjectDetail;
+import com.sibebek.projecthunter.repository.ProjectInquiryRepository;
+import com.sibebek.projecthunter.service.NotificationService;
+import com.sibebek.projecthunter.service.ProjectNotificationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
-package com.sibebek.projecthunter.projecthunter.controller;
+package com.sibebek.projecthunter.controller;
 
-import com.sibebek.projecthunter.projecthunter.dto.ProjectDetail;
-import com.sibebek.projecthunter.projecthunter.service.ProjectNotificationService;
+import com.sibebek.projecthunter.dto.ProjectDetail;
+import com.sibebek.projecthunter.service.ProjectNotificationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

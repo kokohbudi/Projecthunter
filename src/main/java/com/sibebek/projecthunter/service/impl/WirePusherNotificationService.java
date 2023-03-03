@@ -1,6 +1,6 @@
-package com.sibebek.projecthunter.projecthunter.service.impl;
+package com.sibebek.projecthunter.service.impl;
 
-import com.sibebek.projecthunter.projecthunter.service.NotificationService;
+import com.sibebek.projecthunter.service.NotificationService;
 import lombok.extern.slf4j.Slf4j;
 import org.jsoup.Connection;
 import org.jsoup.Connection.Response;

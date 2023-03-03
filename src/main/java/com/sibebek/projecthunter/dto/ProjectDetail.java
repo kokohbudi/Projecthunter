@@ -1,4 +1,4 @@
-package com.sibebek.projecthunter.projecthunter.dto;
+package com.sibebek.projecthunter.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 
 @Data
 public class ProjectDetail {
-	
+
 	@JsonProperty("nama_project")
 	private String namaProject;
 
