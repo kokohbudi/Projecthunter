@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: projecthunter
+server:
+  port: 8080
+projecthunter:
+  url-inquiry: https://www.danasyariah.id/penggalangan-berlangsung?page=
+  notification:
+    wirepusher:
+      url: https://wirepusher.com/send
+      token: Token
+#logging:
+#  level:
+#    com.sibebek.projecthunter.projecthunter.service.impl: INFO
+
+eureka:
+  instance:
+  lease-renewal-interval-in-seconds: 1
+  lease-expiration-duration-in-seconds: 2
+  client:
+    serviceUrl:
+      defaultZone: http://sibebek:kozaninja@localhost:8080/eureka
+    instance:
+    preferIpAddress: false
+    register-with-eureka: true
+    fetch-registry: true
+management:
+  info:
+    env:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: info
+
+info:
+  application:
+    name: Hello
+    description: Nice to Meet You
+
+
